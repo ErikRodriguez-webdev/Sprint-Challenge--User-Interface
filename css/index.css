@@ -304,7 +304,14 @@ footer nav a {
 
 /*aboutpage*/
 /*nav/footer styles same as homepage*/
-/*topImg and topText here*/
+/*topImg same as homepage, topText and hr lines here*/
+.topText {
+  width: 90%;
+  padding-bottom: 3%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  border-bottom: 1px dashed black;
+}
 
 /*boxImageAndText and structure here*/
 .boxesStructure {
@@ -324,10 +331,18 @@ footer nav a {
 }
 
 .buttonFormat {
-  border: 2px solid black;
+  border: 1px solid black;
   width: 30%;
   text-align: center;
   padding: 2%;
   border-radius: 10px;
   margin-bottom: 2%;
+}
+
+/*bottomText here*/
+.bottomText {
+  width: 90%;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-bottom: 3%;
 }
